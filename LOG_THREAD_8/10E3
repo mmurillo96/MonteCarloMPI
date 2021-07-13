@@ -1,0 +1,42 @@
+murillo@murillo-VirtualBox:~/Documentos/ProjetoMPI/MonteCarloMPI$ mpicc MonteCarloMPI.c -o monteCarlo 
+murillo@murillo-VirtualBox:~/Documentos/ProjetoMPI/MonteCarloMPI$ mpirun -np 8 ./monteCarlo
+np= 8
+Time=0.035900s
+PI=3.142400
+murillo@murillo-VirtualBox:~/Documentos/ProjetoMPI/MonteCarloMPI$ mpirun -np 8 ./monteCarlo
+np= 8
+Time=0.048274s
+PI=3.091200
+murillo@murillo-VirtualBox:~/Documentos/ProjetoMPI/MonteCarloMPI$ mpirun -np 8 ./monteCarlo
+np= 8
+Time=0.039903s
+PI=3.136000
+murillo@murillo-VirtualBox:~/Documentos/ProjetoMPI/MonteCarloMPI$ mpirun -np 8 ./monteCarlo
+np= 8
+Time=0.079982s
+PI=3.212800
+murillo@murillo-VirtualBox:~/Documentos/ProjetoMPI/MonteCarloMPI$ mpirun -np 8 ./monteCarlo
+np= 8
+Time=0.033165s
+PI=3.164800
+murillo@murillo-VirtualBox:~/Documentos/ProjetoMPI/MonteCarloMPI$ mpirun -np 8 ./monteCarlo
+np= 8
+Time=0.048042s
+PI=3.065600
+murillo@murillo-VirtualBox:~/Documentos/ProjetoMPI/MonteCarloMPI$ mpirun -np 8 ./monteCarlo
+np= 8
+Time=0.060568s
+PI=3.148800
+murillo@murillo-VirtualBox:~/Documentos/ProjetoMPI/MonteCarloMPI$ mpirun -np 8 ./monteCarlo
+np= 8
+Time=0.020202s
+PI=3.174400
+murillo@murillo-VirtualBox:~/Documentos/ProjetoMPI/MonteCarloMPI$ mpirun -np 8 ./monteCarlo
+np= 8
+Time=0.076859s
+PI=3.155200
+murillo@murillo-VirtualBox:~/Documentos/ProjetoMPI/MonteCarloMPI$ mpirun -np 8 ./monteCarlo
+np= 8
+Time=0.051780s
+PI=3.123200
+murillo@murillo-VirtualBox:~/Documentos/ProjetoMPI/MonteCarloMPI$ 

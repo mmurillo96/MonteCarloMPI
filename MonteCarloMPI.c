@@ -26,8 +26,10 @@ int main (int argc, char* argv[])
     
     srand((int)time(0));
     
-    //calculando cada parte da somatoria    
-    for (i=rank; i<N; i+=size)
+    //calculando cada parte da somatoria 
+    long pontos_thread = N / size;   
+    //for (i=rank; i<N; i+=size)
+    for (i=rank; i<pontos_thread; i++)
     {
         x=rand()/(RAND_MAX+1.0);
         y=rand()/(RAND_MAX+1.0);
@@ -50,7 +52,7 @@ int main (int argc, char* argv[])
         pi=4.*(result*size)/N;
         printf("np=%2d\n", size);
         printf("Time=%fs\n", fim-inicio);        
-        printf("PI=%0.4f\n", pi);                
+        printf("PI=%0.6f\n", pi);                
     }
     
     MPI_Finalize();
